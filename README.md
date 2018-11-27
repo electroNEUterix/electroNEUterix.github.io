@@ -1,1 +1,1 @@
-# electroneuterix.github.io
+# electroneuteri.github.io

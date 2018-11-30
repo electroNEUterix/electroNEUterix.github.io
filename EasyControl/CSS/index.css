@@ -52,7 +52,9 @@ content:url('https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif'
 
 @media screen and (max-width:540px){
 	p{
-	right: .4rem;
+		position:relative;
+	right: -.4rem;
+	top: -1rem;
 	}
 	h1{
 		font-size:.7rem;

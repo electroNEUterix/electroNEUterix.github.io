@@ -72,4 +72,10 @@ content:url('https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif'
 		margin-bottom: -1.5rem;
 	}
 	
+	html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
 }

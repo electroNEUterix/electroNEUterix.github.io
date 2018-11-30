@@ -4,104 +4,59 @@
     <title>Acer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="https://electroneuterix.github.io/CSS/assets/A.ico" />  
+	<link rel="shortcut icon" type="image/x-icon" href="/CSS/assets/A.ico" />  
 	  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><link rel="stylesheet" href="./CSS/index.css" type="text/css">
-	<script src="./js/index.js"></script>
+	<script src="/js/index.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/css/index.css">
     
 </head>
 <body>
 <div class="container-fluid text-center">
 <h1 class="head-text">Automated Irrigation and Electro Culture Powered by Acer CloudProfessor using Arduino Uno</h1>
 
-<!--- ELECTROOCULTURE IMAGE -->
-
-<center>
-	<img id="test">
-<br>
-
-<div class="onoffswitch">
-    <input  onclick="OnOff()" type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" >
-    <label  onclick="OnOff()" class="onoffswitch-label" for="myonoffswitch">
-        <span onclick="OnOff()" class="onoffswitch-inner"></span>
-        <span onclick="OnOff()" class="onoffswitch-switch"></span>
-    </label>
-</div>
-</center>
-<!--- ELECTROOCULTURE IMAGE -->
 <!--- PLANTS -->
 <div class="container-fluid">
   <div class="row">
   
-    <div class="col-xl-4 col-md-4 text-center" style="background:blue;">
+    <div class="col-xl-3 col-md-3 text-center">
       <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant">
-		<center>
-			<div class="onoffswitchp">
-				<input onclick="OnOffp()" type="checkbox" name="onoffswitchp" class="onoffswitch-checkboxp" id="myonoffswitchp">
-				<label onclick="OnOffp()" class="onoffswitch-labelp" for="myonoffswitchp">
-				<span onclick="OnOffp()"class="onoffswitch-innerp"></span>
-				<span onclick="OnOffp()" class="onoffswitch-switchp"></span>
-				</label>
-			</div>
-		</center>
+	  <br>
+	  <p class="drywet"></p>
     </div>
-    <div class="col-xl-4 col-md-4  text-center" style="background:red;">
+    <div class="col-xl-3 col-md-3  text-center">
       <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant2">
-	  	<center>
-			<div class="onoffswitchp2">
-				<input onclick="OnOffp2()" type="checkbox" name="onoffswitchp2" class="onoffswitch-checkboxp2" id="myonoffswitchp2">
-				<label onclick="OnOffp2()" class="onoffswitch-labelp2" for="myonoffswitchp2">
-				<span onclick="OnOffp2()" class="onoffswitch-innerp2"></span>
-				<span onclick="OnOffp2()" class="onoffswitch-switchp2"></span>
-				</label>
-			</div>
-		</center>
+	  <br>
+	  <p class="drywet"></p>
     </div>
-    <div class="col-xl-4  col-md-8 text-center" style="background:black;">
+    <div class="col-xl-3  col-md-3 text-center">
        <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant3">
-	   	<center>
-			<div class="onoffswitchp3">
-				<input onclick="OnOffp3()" type="checkbox" name="onoffswitchp3" class="onoffswitch-checkboxp3" id="myonoffswitchp3">
-				<label onclick="OnOffp3()" class="onoffswitch-labelp3" for="myonoffswitchp3">
-				<span onclick="OnOffp3()" class="onoffswitch-innerp3"></span>
-				<span onclick="OnOffp3()" class="onoffswitch-switchp3"></span>
-				</label>
-			</div>
-		</center>
+	   <br>
+	  <p class="drywet"></p>
+	    </div>
+	    <div class="col-xl-3 col-md-3 text-center">
+      <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant4">
+	  <br>
+	  <p class="drywet"></p>
     </div>
+
+   
   </div>
   
-   <div class="row">
+
   
-    <div class="col-xl-6 col-md-2 text-center">
-      <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant4">
-	  	<center>
-				<div class="onoffswitchp4">
-				<input onclick="OnOffp4()" type="checkbox" name="onoffswitchp4" class="onoffswitch-checkboxp4" id="myonoffswitchp4">
-				<label onclick="OnOffp4()" class="onoffswitch-labelp4" for="myonoffswitchp4">
-				<span onclick="OnOffp4()" class="onoffswitch-innerp4"></span>
-				<span onclick="OnOffp4()" class="onoffswitch-switchp4"></span>
-				</label>
-			</div>
-		</center>
-    </div>
-    <div class="col-xl-6 col-md-2 text-center">
-      <img class="plantsimg" src="https://github.com/electroNEUterix/electroNEUter.github.io/blob/master/CSS/assets/plants.png?raw=true" id="plant5">
-	  	<center>
-				<div class="onoffswitchp5">
-				<input onclick="OnOffp5()" type="checkbox" name="onoffswitchp5" class="onoffswitch-checkboxp5" id="myonoffswitchp5">
-				<label onclick="OnOffp5()" class="onoffswitch-labelp5" for="myonoffswitchp5">
-				<span onclick="OnOffp5()" class="onoffswitch-innerp5"></span>
-				<span onclick="OnOffp5()" class="onoffswitch-switchp5"></span>
-				</label>
-			</div>
-		</center>
-    </div>
-    </div>
+   
   </div>
   <!--- PLANTS -->
+  
+<!--- ELECTROOCULTURE IMAGE -->
+
+<center>
+	<img id="test">
+</center>
+<!--- ELECTROOCULTURE IMAGE -->
 </div>
 </div>
 

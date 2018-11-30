@@ -40,8 +40,7 @@ ui.set("title",'TEST: SMS + Relay(solenoid valve)');
     ui.set("D2",1);
     cpf.set("D3",1);
     ui.set("D3",1);
-	var element = document.getElementById("plant");
-	element.classList.toggle("on");
+	document.getElementById("plant").src="https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif";
 	var element = document.getElementById("plantt");
 	element.classList.toggle("dry");
   } 
@@ -61,7 +60,7 @@ cpf.repeat();
     ui.set("D2",1);
     cpf.set("D4",1);
     ui.set("D4",1);
-		var element = document.getElementById("plant2");
+	document.getElementById("plant2").src="https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif";
 	element.classList.toggle("on");
 	var element = document.getElementById("plantt2");
 	element.classList.toggle("dry");
@@ -83,8 +82,8 @@ cpf.repeat();
     ui.set("D2",1);
     cpf.set("D7",1);
     ui.set("D7",1);
-	var element = document.getElementById("plant3");
-	element.classList.toggle("on");
+	document.getElementById("plant3").src="https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif";
+	
 	var element = document.getElementById("plantt3");
 	element.classList.toggle("dry");
   } 
@@ -105,8 +104,8 @@ cpf.repeat();
     ui.set("D2",1);
     cpf.set("D8",1);
     ui.set("D8",1);
-	var element = document.getElementById("plant4");
-	element.classList.toggle("on");
+	document.getElementById("plant4").src="https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif";
+	
 	var element = document.getElementById("plantt4");
 	element.classList.toggle("dry");
   } 

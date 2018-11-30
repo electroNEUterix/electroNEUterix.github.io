@@ -31,7 +31,7 @@ function LuminaceSensorGet() {
   return  LuminaceSensorGetValue;
 }
  
- 
+
 ui.set("title",'TEST: SMS + Relay(solenoid valve)');
  //wet 650+
  //dry 0-649
@@ -120,6 +120,12 @@ cpf.repeat();
 	element.classList.toggle("wet");
   }
  
+ 
+ 
 cpf.repeat();
 
 //
+if (SMS0, SMS1, SMS2, SMS3 =< 651){
+	 var element = document.getElementById("test");
+	element.classList.toggle("onelelctro");
+ }

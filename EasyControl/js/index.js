@@ -31,9 +31,9 @@ function OnOffp4() {
 
 
 //cpf code
-var pinreset, uireset;
-cpf.pinreset("[\"resetPin\"],[\"setPinMode\", \"analog\", 0,\"INPUT\"],[\"setPinMode\", \"digital\", 2,\"OUTPUT\"],[\"setPinMode\", \"digital\", 3,\"OUTPUT\"],[\"setPinMode\", \"analog\", 1,\"INPUT\"],[\"setPinMode\", \"digital\", 4,\"OUTPUT\"],[\"setPinMode\", \"analog\", 2,\"INPUT\"],[\"setPinMode\", \"digital\", 7,\"OUTPUT\"],[\"setPinMode\", \"analog\", 3,\"INPUT\"],[\"setPinMode\", \"digital\", 8,\"OUTPUT\"]");
- 
+var pinreset;
+cpf.pinreset("[\"resetPin\"],[\"setPinMode\", \"analog\", 0,\"INPUT\"],[\"setPinMode\", \"digital\", 2,\"OUTPUT\"],[\"setPinMode\", \"digital\", 3,\"OUTPUT\"],[\"setPinMode\", \"analog\", 1,\"INPUT\"],[\"setPinMode\", \"digital\", 4,\"OUTPUT\"],[\"setPinMode\", \"analog\", 2,\"INPUT\"],[\"setPinMode\", \"digital\", 7,\"OUTPUT\"],[\"setPinMode\", \"analog\", 3,\"INPUT\"],[\"setPinMode\", \"digital\", 8,\"OUTPUT\"]"); 
+var. uireset;
 cpf.uireset("[\"uiresetPin\"],[\"analog\", 0,\"INPUT\",\"Alcohol Sensor(A)\",\"img-alcohol\"],[\"digital\", 2,\"OUTPUT\",\"SPDT Relay \",\"img-spdt_relay\"],[\"digital\", 3,\"OUTPUT\",\"SPDT Relay \",\"img-spdt_relay\"],[\"analog\", 1,\"INPUT\",\"Light Sensor\",\"img-ext_lightsensor\"],[\"digital\", 4,\"OUTPUT\",\"SPDT Relay \",\"img-spdt_relay\"],[\"analog\", 2,\"INPUT\",\"Loudness Sensor\",\"img-loudness\"],[\"digital\", 7,\"OUTPUT\",\"SPDT Relay \",\"img-spdt_relay\"],[\"analog\", 3,\"INPUT\",\"Luminace Sensor\",\"img-luminanace\"],[\"digital\", 8,\"OUTPUT\",\"SPDT Relay \",\"img-spdt_relay\"]");
  
 var SMS0, SMS1, SMS2, SMS3;

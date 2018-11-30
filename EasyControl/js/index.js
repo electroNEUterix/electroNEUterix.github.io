@@ -42,7 +42,9 @@ ui.set("title",'TEST: SMS + Relay(solenoid valve)');
     cpf.set("D3",1);
     ui.set("D3",1);
 	var element = document.getElementById("plant");
-	element.classList.toggle("wet");
+	element.classList.toggle("on");
+	var element = document.getElementById("plantt");
+	element.classList.toggle("dry");
   } 
   else {
     cpf.set("D2",0);
@@ -50,7 +52,7 @@ ui.set("title",'TEST: SMS + Relay(solenoid valve)');
     cpf.set("D3",0);
     ui.set("D3",0);
 	var element = document.getElementById("plant");
-	element.classList.toggle("dry","on");
+	element.classList.toggle("wet");
   }
  
 cpf.repeat();
@@ -60,16 +62,19 @@ cpf.repeat();
     ui.set("D2",1);
     cpf.set("D4",1);
     ui.set("D4",1);
-	var element = document.getElementById("plant2");
-	element.classList.toggle("wet");
+		var element = document.getElementById("plant2");
+	element.classList.toggle("on");
+	var element = document.getElementById("plantt2");
+	element.classList.toggle("dry");
   } 
   else {
     cpf.set("D2",0);
     ui.set("D2",0);
     cpf.set("D4",0);
     ui.set("D4",0);
-	var element = document.getElementById("plant");
-	element.classList.toggle("dry","on");
+		var element = document.getElementById("plantt2");
+	element.classList.toggle("wet");
+	
   }
  
 cpf.repeat();
@@ -80,15 +85,17 @@ cpf.repeat();
     cpf.set("D7",1);
     ui.set("D7",1);
 	var element = document.getElementById("plant3");
-	element.classList.toggle("wet");
+	element.classList.toggle("on");
+	var element = document.getElementById("plantt3");
+	element.classList.toggle("dry");
   } 
   {
     cpf.set("D2",0);
     ui.set("D2",0);
     cpf.set("D7",0);
     ui.set("D7",0);
-	var element = document.getElementById("plant");
-	element.classList.toggle("dry","on");
+		var element = document.getElementById("plant3");
+	element.classList.toggle("wet");
   }
  
 cpf.repeat();
@@ -100,15 +107,17 @@ cpf.repeat();
     cpf.set("D8",1);
     ui.set("D8",1);
 	var element = document.getElementById("plant4");
-	element.classList.toggle("wet");
+	element.classList.toggle("on");
+	var element = document.getElementById("plantt4");
+	element.classList.toggle("dry");
   } 
   else {
     cpf.set("D2",0);
     ui.set("D2",0);
     cpf.set("D8",0);
     ui.set("D8",0);
-	var element = document.getElementById("plant");
-	element.classList.toggle("dry","on");
+		var element = document.getElementById("plant4");
+	element.classList.toggle("wet");
   }
  
 cpf.repeat();

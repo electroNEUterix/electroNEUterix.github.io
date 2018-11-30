@@ -14,19 +14,19 @@ body {
 }
 
 .plantsimg{
-	width: 15rem;
+	width: 20rem;
 	margin: 1rem;
 }
 
 
 center img {
-content:url('https://i.imgur.com/ahKzFV7.png');
+content:url('https://electroneuterix.github.io/EasyControl/CSS/assets/Electro.png');
 display: block;	
 margin-top: -1rem;
 }
 
 .on{
-content:url('https://electroneuterix.github.io/CSS/assets/Plant.gif');
+content:url('https://electroneuterix.github.io/EasyControl/CSS/assets/Plant.gif');
 }
 
 
@@ -36,17 +36,31 @@ content:url('https://electroneuterix.github.io/CSS/assets/Plant.gif');
 	content:""
 }
 
-@media screen and (max-width:360px){
-	
-	img{
-		width: 5rem;
-	}
-}
-
 .wet:before{
 	content:"WET";
 }
 
 .dry:before{
 	content:"DRY";
+}
+
+
+
+@media screen and (max-width:540px){
+	
+	h1{
+		font-size:1rem;
+		text-align: center;
+	}
+	
+	img{
+		width: 10rem;
+	}
+	
+	.plantsimg{
+		width: 10rem;
+		margin: 1rem;
+	}
+	
+	
 }
